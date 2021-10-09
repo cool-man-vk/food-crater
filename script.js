@@ -68,6 +68,9 @@ function mealRecipeModal(meal){
         <div class = "recipe-meal-img">
             <img src = "${meal.strMealThumb}" alt = "">
         </div>
+        <div class = "recipe-link">
+            <a href = "${meal.strYoutube}" target = "_blank">Watch Video</a>
+        </div>
     `;
     mealDetailsContent.innerHTML = html;
     mealDetailsContent.parentElement.classList.add('showRecipe');
